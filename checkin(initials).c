@@ -205,10 +205,6 @@ xiejiabao = 1;
 printf("谢家宝 ✓\n");
 total++;
 }
-
-
-
-
 else if(strcmp(name,"xx") == 0)
 {
 xuxiao = 1;
@@ -293,7 +289,7 @@ wuwenjing = 1;
 printf("吴文静 ✓\n");
 total++;
 }
-else if(strcmp(name,"zzy") == 0)
+else if(strcmp(name,"zzq") == 0)
 {
 zhaoziqian = 1;
 printf("赵子骞 ✓\n");
