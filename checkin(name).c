@@ -205,10 +205,6 @@ xiejiabao = 1;
 printf("谢家宝 ✓\n");
 total++;
 }
-
-
-
-
 else if(strcmp(name,"xuxiao") == 0)
 {
 xuxiao = 1;
@@ -310,7 +306,9 @@ else
 printf("Error:查无此人，请检查拼写 X\n");//当拼写错误提示重新拼写
 
 }
-//结果输出程序
+//清屏，并执行结果输出程序
+//system(“cls”);     //在Windows中执行清屏
+//system(“clear”);   //在Mac OS中执行清屏
 
 
 loop=1;
